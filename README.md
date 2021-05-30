@@ -66,7 +66,7 @@
 >
 > - 相关文章：[官网](https://notable.app/)
 >
->   ![Notable](/Users/liqilong/龙盘虎踞/Typora/typora-pic/68747470733a2f2f6e6f7461626c652e6170702f7374617469632f696d616765732f73637265656e73686f74732f6d61696e5f6d61632e706e673f6e6f2d77656270.png)
+>   ![Notable](./images/notable.png)
 
 ----
 
