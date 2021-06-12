@@ -1,37 +1,34 @@
-目录
-=================
-
-- [目录](#目录)
 - [1，前言](#1前言)
-  - [1，开源项目](#1开源项目)
-  - [2，优秀文章](#2优秀文章)
-  - [3，优秀博客](#3优秀博客)
+  - [**1，开源项目**](#1开源项目)
+  - [**2，优秀文章**](#2优秀文章)
+  - [**3，优秀博客**](#3优秀博客)
 - [2，第18周-5月3–5月9](#2第18周-5月35月9)
-  - [1，开源项目](#1开源项目-1)
-  - [2，优秀文章](#2优秀文章-1)
-  - [3，优秀博客](#3优秀博客-1)
+  - [**1，开源项目**](#1开源项目-1)
+  - [**2，优秀文章**](#2优秀文章-1)
+  - [**3，优秀博客**](#3优秀博客-1)
 - [3，第19周-5月10–5月16](#3第19周-5月105月16)
-  - [1，开源项目](#1开源项目-2)
-  - [2，优秀文章](#2优秀文章-2)
-  - [3，优秀博客](#3优秀博客-2)
+  - [**1，开源项目**](#1开源项目-2)
+  - [**2，优秀文章**](#2优秀文章-2)
+  - [**3，优秀博客**](#3优秀博客-2)
 - [4，第20周-5月17–5月23](#4第20周-5月175月23)
-  - [1，开源项目](#1开源项目-3)
-  - [2，优秀文章](#2优秀文章-3)
-  - [3，优秀博客](#3优秀博客-3)
+  - [**1，开源项目**](#1开源项目-3)
+  - [**2，优秀文章**](#2优秀文章-3)
+  - [**3，优秀博客**](#3优秀博客-3)
 - [5，第21周-5月24–5月30](#5第21周-5月245月30)
-  - [1，开源项目](#1开源项目-4)
-  - [2，优秀文章](#2优秀文章-4)
-  - [3，优秀博客](#3优秀博客-4)
-- [6，第22周-5月31–6月6](#6第22周-5月316月6)
-  - [1，开源项目](#1开源项目-5)
-  - [2，优秀文章](#2优秀文章-5)
-  - [3，优秀博客](#3优秀博客-5)
+  - [**1，开源项目**](#1开源项目-4)
+  - [**2，优秀文章**](#2优秀文章-4)
+  - [**3，优秀博客**](#3优秀博客-4)
+- [7，第23周-6月7–6月12](#7第23周-6月76月12)
+  - [**1，开源项目**](#1开源项目-5)
+  - [**2，优秀文章**](#2优秀文章-5)
+  - [**3，优秀博客**](#3优秀博客-5)
 
-# 1，前言
+## 1，前言
 
 这里记录我每周工作学习过程中遇到学到的优秀开源项目，优秀文章，以及优秀博客。有很多优秀的内容，都值得被铭记，值得被分享，值得被更多人学习，我想通过这里每周的记录分享，一方面强化自己对优秀内容的认识与学习，另一方面能够把优质内容统一汇总，以飨大众。
 
-## 1，开源项目
+<!-- tabs:start -->
+### **1，开源项目**
 
 所有项目记录时模板如下：
 
@@ -43,7 +40,7 @@
 
 如果是web类的项目，最好能带一两张比较直观的图。
 
-## 2，优秀文章
+### **2，优秀文章**
 
 优秀文章记录模板如下：
 
@@ -51,7 +48,7 @@
 >
 > - 简单说明：基础但是完整的配置优化说明。
 
-## 3，优秀博客
+### **3，优秀博客**
 
 优秀博客记录模板如下：
 
@@ -59,9 +56,12 @@
 >
 > - 简单说明：运维博客，作者分享了很多不错的运维实践。
 
-# 2，第18周-5月3–5月9
+<!-- tabs:end -->
 
-## 1，开源项目
+## 2，第18周-5月3–5月9
+
+<!-- tabs:start -->
+### **1，开源项目**
 
 > - 项目地址：[kubedog](https://github.com/werf/kubedog)
 > - 项目说明：Kubedog是一个库，用于监视和跟踪CI / CD部署管道中的Kubernetes资源。同时它也提供了一个二进制cli程序，让我们能够快速通过命令行对刚刚构建成功的应用状态做一些观测与打印。
@@ -93,7 +93,7 @@
 >
 > - 相关文章：[官网](https://notable.app/)
 >
->   ![Notable](./images/notable.png)
+>   ![Notable](http://tva3.sinaimg.cn/large/71cfeb93ly1gqckozjlr5j21e00pkta0.jpg)
 
 ----
 
@@ -101,7 +101,7 @@
 > - 项目说明：比docker build拥有更多新特性的构建工具，应用得当能够带来很高的提效。
 > - 相关文章：[官方博客介绍](https://blog.mobyproject.org/introducing-buildkit-17e056cc5317)
 
-## 2，优秀文章
+### **2，优秀文章**
 
 > - [压测nginx出现no live upstreams while connecting to upstream的问题分析](https://cloud.tencent.com/developer/article/1743145)
 >   - 实践参考文中的思路以及方法，调优之后的压测效果达到了调优之前的2倍之多。
@@ -125,7 +125,7 @@
 > - [基于BuildKit优化Dockerfile的构建](https://mp.weixin.qq.com/s/OjeQsalkthe-YksIe0HtVg)
 >   - 在这个工具众多新特性当中，目前比较能够切中我的痛点的，就是分阶段构建时，能够挂载缓存的功能，这将为编译性的分阶段构建镜像，带来许多倍的提效！
 
-## 3，优秀博客
+### **3，优秀博客**
 
 > - 博客地址：[PoorOPS](https://www.poorops.com/)
 > - 简单说明：运维博客，作者分享了很多不错的运维实践。
@@ -155,9 +155,12 @@
 > - 博客地址：[KLBLOG](http://www.kailing.pub/index/index.html)
 > - 简单说明：Java开发者，但是典型的诠释了Java开发者全面发展的高素养
 
-# 3，第19周-5月10–5月16
+<!-- tabs:end -->
 
-## 1，开源项目
+## 3，第19周-5月10–5月16
+
+<!-- tabs:start -->
+### **1，开源项目**
 
 > - 项目地址：[Weibo-Picture-Store](https://github.com/Semibold/Weibo-Picture-Store)
 > - 项目说明：早在18年折腾图床的时候，发现有人推荐微博图床，而这个插件，是体验了众多图床之后，最好用的一个。
@@ -176,7 +179,7 @@
 > - 相关文章：[官网](https://etcdmanager.io/)
 
 
-## 2，优秀文章
+### **2，优秀文章**
 
 > - [如何查看、修改Linux弹性云服务器的内核参数？](https://support.huaweicloud.com/intl/zh-cn/ecs_faq/ecs_faq_1327.html)
 >   - 华为云官方文档针对Linux内核参数的说明。
@@ -219,7 +222,7 @@
 >    - 阿里云k8s文档
 
 
-## 3，优秀博客
+### **3，优秀博客**
 
 > - 博客地址：[Huang Huang 的博客](https://mozillazg.com/)
 > - 简单说明：Python，Go，LeetCode
@@ -258,9 +261,12 @@
 > - 博客地址：[张首富](https://www.cnblogs.com/shoufu/)
 > - 简单说明：作者的文章很用心，值得学习。
 
-# 4，第20周-5月17–5月23
+<!-- tabs:end -->
 
-## 1，开源项目
+## 4，第20周-5月17–5月23
+
+<!-- tabs:start -->
+### **1，开源项目**
 
 > - 项目地址：[clashX](https://github.com/yichengchen/clashX)
 > - 项目说明：Mac端优秀的代理工具。
@@ -326,7 +332,7 @@
 > - 项目说明：一款开源的优秀PE工具。
 > - 相关文章：[官网](https://home.edgeless.top/)
 
-## 2，优秀文章
+### **2，优秀文章**
 
 > - [uTools 官方插件下载](https://api.u-tools.cn/Plugins/developer/allPlugins)
 >   - uTools官方备份保留的插件下载地址。
@@ -337,7 +343,7 @@
 >   - 配置，脚本等内容。
 
 
-## 3，优秀博客
+### **3，优秀博客**
 
 > - 博客地址：[roc](https://imroc.cc/)
 > - 简单说明：云原生，istio。
@@ -369,11 +375,12 @@
 > - 博客地址：[Killer Whale](https://killerwhale.iquantex.com/)
 > - 简单说明：DevOps系列文档
 
-----
+<!-- tabs:end -->
 
-# 5，第21周-5月24–5月30
+## 5，第21周-5月24–5月30
 
-## 1，开源项目
+<!-- tabs:start -->
+### **1，开源项目**
 
 > - 项目地址：[opsant](https://github.com/unixhot/opsant)
 > - 项目说明：赵班长负责的云原生开源运维平台，期待后续更多功能开放
@@ -403,7 +410,7 @@
 > - 项目说明：比du更好看的磁盘空间占用查看工具
 > - 相关文章：[README](https://github.com/muesli/duf/blob/master/README.md)
 
-## 2，优秀文章
+### **2，优秀文章**
 
 > - [Go安全指南](https://github.com/Tencent/secguide/blob/main/Go%E5%AE%89%E5%85%A8%E6%8C%87%E5%8D%97.md)
 >   - 腾讯出品的go语言开发tips
@@ -424,7 +431,7 @@
 >   - 安全方面，内核优化等
 
 
-## 3，优秀博客
+### **3，优秀博客**
 
 > - 博客地址：[liqiankun](https://qiankunli.github.io/)
 > - 简单说明：go，java
@@ -466,101 +473,75 @@
 > - 博客地址：[小弟调调](https://wangchujiang.com/)
 > - 简单说明：作者创建了许多高质量的分享
 
-# 6，第22周-5月31–6月6
+<!-- tabs:end -->
 
-## 1，开源项目
+## 7，第23周-6月7–6月12
 
-> - 项目地址：[zadig](https://github.com/koderover/zadig)
-> - 项目说明：Zadig 是 KodeRover 公司基于 Kubernetes 自主设计、研发的开源分布式持续交付 (Continues Delivery) 产品，为开发者提供云原生运行环境，支持开发者本地联调、微服务并行构建和部署、集成测试等。
-> - 相关文章：[官方文档](https://docs.koderover.com/zadig)
+<!-- tabs:start -->
+
+### **1，开源项目**
+
+> - 项目地址：[quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins)
+> - 项目说明：使用如下命令安装所有`brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo`
+> - 相关文章：[维基](https://en.wikipedia.org/wiki/Quick_Look)
 
 ----
 
-> - 项目地址：[github-markdown-toc](https://github.com/ekalinin/github-markdown-toc)
-> - 项目说明：给GitHub仓库中README生成TOC目录的工具，支持本地远程
+> - 项目地址：[go-bindata](https://github.com/go-bindata/go-bindata)
+> - 项目说明：支持将静态文件打入到go二进制当中
 > - 相关文章：[README](https://github.com/ekalinin/github-markdown-toc/blob/master/README.md)
 
 ----
 
-> - 项目地址：[gitalk](https://github.com/gitalk/gitalk)
-> - 项目说明：一个基于 GitHub Issue 和 Preact 开发的评论插件，可用于Hugo，docsify等静态博客。
-> - 相关文章：[中文文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md)，[在线示例](https://gitalk.github.io/)
+> - 项目地址：[gotable](https://github.com/liushuochen/gotable)
+> - 项目说明：开箱即用，在命令行通过表格形式输出我们想要打印的东西
+> - 相关文章：[说明文档](https://blog.csdn.net/TCatTime/article/details/103068260)
 
 ----
 
-> - 项目地址：[shields](https://github.com/badges/shields)
-> - 项目说明：markdown中自定义徽标
-> - 相关文章：[在线访问](https://shields.io/category/license)
+> - 项目地址：[json-to-go](https://github.com/mholt/json-to-go)
+> - 项目说明：可以直接将json转换成go结构体，方便定义
+> - 相关文章：[在线访问](https://mholt.github.io/json-to-go/)
 
 ----
 
-> - 项目地址：[kubectl-debug](https://github.com/aylei/kubectl-debug)
-> - 项目说明：便捷地进行 Kubernetes 上的 Pod 排障诊断
-> - 相关文章：[中文说明](https://github.com/aylei/kubectl-debug/blob/master/docs/zh-cn.md)
+> - 项目地址：[cobra](https://github.com/spf13/cobra)
+> - 项目说明：一款命令行cli包
+> - 相关文章：[说明文档](https://cobra.dev/)
+
+### **2，优秀文章**
+
+> -  [Linux中strace的输出直接grep](https://www.coder.work/article/1873973)
+>    -  strace 直接执行没办法直接grep，这是因为strace将其所有输出写入stderr，而不是stdout，使用 `2>&1` 可以将之转化。
 
 ----
 
-> - 项目地址：[vuepress](https://github.com/vuejs/vuepress)
-> - 项目说明：以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作
-> - 相关文章：[中文官网](https://vuepress.vuejs.org/zh/)
+> - [使用 Linux 的 strace 命令跟踪/调试程序的常用选项](https://linux.cn/article-3935-1.html)
+>   - 文章介绍了几种常见的系统调用追踪
 
 ----
 
-> - 项目地址：[awesome-vuepress](https://github.com/vuepress/awesome-vuepress)
-> - 项目说明：如名
-> - 相关文章：
+> - [Mac电脑安装pip](http://www.javashuo.com/article/p-zaeanxfx-eu.html)
+>   - 通过文中介绍的方式，亲测安装成功
 
 ----
 
-> - 项目地址：[vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing)
-> - 项目说明：一款设计非常优秀的vuepress博客主题
-> - 相关文章：[官方文档](https://doc.xugaoyi.com/)
+> - [Go语言-打包静态文件](https://c.isme.pub/2019/01/10/go-static/)
+>   - 文章介绍了几种将静态文件打包进二进制的工具
 
 ----
 
-> - 项目地址：[vuepress-theme-hope](https://github.com/vuepress-theme-hope/vuepress-theme-hope)
-> - 项目说明：又一款不错的vuepress博客主题
-> - 相关文章：[官方文档](https://vuepress-theme-hope.github.io/zh/)
+> - [Golang之使用Cobra](https://o-my-chenjian.com/2017/09/20/Using-Cobra-With-Golang/)，[cobra 包简介](https://www.cnblogs.com/sparkdev/p/10856077.html)，[golang常见库cobra](https://segmentfault.com/a/1190000023382214)
+>   - 介绍了cobra的使用姿势
 
-## 2，优秀文章
+### **3，优秀博客**
 
-> -  [GitHub与Gitee双向自动同步](https://www.bahuangshanren.tech/github%E4%B8%8Egitee%E5%8F%8C%E5%90%91%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5/)
-> -  gitee没有自动同步功能，通过`Github Actions`我们可以实现这个需求
-
-----
-
-> - [Go 语言优秀资源整理，为项目落地加速](https://cs.leops.cn/#/)
->   - 作者收集整理了一大批go语言项目，值得关注，[开源地址](https://github.com/shockerli/go-awesome)
-
-
-## 3，优秀博客
-
-> - 博客地址：[团队领袖计划](https://leader.js.cool/)
-> - 简单说明：职场经验，人生感悟，内容丰富
+> - 博客地址：[**Casstiel**](https://c.isme.pub/)
+> - 简单说明：go，docker，Linux，内容不错
 
 ----
 
-> - 博客地址：[Java 全栈知识体系](https://www.pdai.tech/)
-> - 简单说明：Java技术栈
+> - 博客地址：[EnjoyToShare](https://wugenqiang.github.io/)
+> - 简单说明：内容丰富，是个有心的博主
 
-----
-
-
-> - 博客地址：[IT外卖小哥](https://clay-wangzhi.com/)
-> - 简单说明：博客朋友王植同学的博客，非常有心，内容丰富
-
-----
-
-> - 博客地址：[awesome-bookmarks](https://panjiachen.github.io/awesome-bookmarks/)
-> - 简单说明：作者将自己的网络收藏夹做成了博客形式
-
-----
-
-> - 博客地址：[前端禅意花园](http://www.yuanchengcheng.vip/)
-> - 简单说明：作者虽步入互联网，却颇有一份热爱文学的气息
-
-----
-
-
-> - 博客地址：[全栈直通车](https://www.sofineday.com/)
-> - 简单说明：作者很有心，博客标签为：努力做个影响他人滴人
+<!-- tabs:end -->
